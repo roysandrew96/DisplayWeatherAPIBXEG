@@ -14,7 +14,7 @@ public class BxWeatherService
     public async void GetForecast()
     {
 
-        string apiKey = "0eae98ec024f4bcbb0e33726221107";
+        string apiKey = "???";
         Uri weatherAPIUri = new Uri($"http://api.weatherapi.com/v1/forecast.json?key={apiKey}&q=-37.716512,144.91903&days=3&aqi=no&alerts=no");
 
         //var response = await _httpClient.GetAsync(weatherAPIUri);
